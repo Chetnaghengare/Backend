@@ -8,7 +8,7 @@ app.get('/' , (req , res) =>{
 
 // get list of 5 jokes
 
-app.get('/jokes' , (req,resp)=>{
+app.get('/api/jokes' , (req,resp)=>{
     const jokes = [
         {
             id : 1 ,
@@ -16,12 +16,12 @@ app.get('/jokes' , (req,resp)=>{
             content : 'this is a joke' 
         },
         {
-            id : 1 ,
+            id : 2 ,
             title : '2nd joke' ,
             content : 'this  2nd is a joke' 
         },
         {
-            id : 1 ,
+            id : 3 ,
             title : '3rd joke' ,
             content : 'this 3rd is a joke' 
         },
